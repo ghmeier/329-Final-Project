@@ -1,0 +1,37 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[pdftex]{graphicx}
+\usepackage{url}
+\usepackage[bookmarks,
+            colorlinks=false,
+            pdfborder={0 0 0},
+            pdftitle={Assignment 5}]{hyperref}
+\usepackage{appendix}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{listings}
+\usepackage{tablefootnote}
+\usepackage{tikz}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{float}
+
+\begin{document}
+\renewcommand\bibname{References}
+\renewcommand{\chaptername}{Section}
+
+\include{title}
+
+\pagenumbering{roman}
+\tableofcontents
+\listoffigures
+\listoftables
+
+\newpage
+\pagenumbering{arabic}
+
+\include{overview}
+\include{design-tasks}
+\include{other-tasks}
+\include{project-plan}
+
+\end{document}
