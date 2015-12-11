@@ -1,5 +1,13 @@
 # Homework 7: Risk Analysis
 
+*Team Members:*
+
+- Garrett Meier <ghmeier@iastate.edu>
+- Nik Kinkel <nskinkel@iastate.edu>
+- Matthew Szpak <mszpak@iastate.edu>
+- Shaun Vanweelden <shaun314@iastate.edu>
+- David Johnston <dwtj@iastate.edu>
+
 ## Primary Source of Risk
 
 This project's primary sources of uncertainty and risk seems to be related to our need to create components which integrate with our restaurant parters' systems. In order for our system to work, these partners' systems will need to support a number of operations, for example, synchronizing current restaurant capacities and handling reservation submissions. Currently we do not even know how many systems are out there for us to interface with, let alone their technical details.
